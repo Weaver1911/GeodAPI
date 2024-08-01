@@ -101,7 +101,7 @@ async function parseHtmlTables(page) {
     "Activated Module": data["Activated Module"] || "",
     "Serial Number": data["Serial Number"] || ""
     "Kpi": "N/A",
-    "Kp Alert": "N/A",
+    "Alert": "N/A",
     "Wind Speed": "N/A",
     "Wind Gust": "N/A",
     "Wind Direction": "N/A",
