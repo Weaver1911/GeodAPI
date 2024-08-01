@@ -41,7 +41,7 @@ app.get('/api', async (req, res) => {
     await browser.close();
     res.json(tableData);
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error: Possibly CONNECTION-RESET');
     res.status(500).send('Error retrieving data. Offline?');
   }
 });

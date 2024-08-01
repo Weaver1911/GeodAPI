@@ -81,7 +81,6 @@ async function parseHtmlTables(page) {
   }
 
   // Rearrange the JSON data
-
   const rearrangedData = {
     "Network Latency": data["Network Latency"] || "",
     "Local Network Status": data["Local Network Status"] || "",
@@ -100,7 +99,8 @@ async function parseHtmlTables(page) {
     "Hardware Version": data["Hardware Version"] || "",
     "Activated Module": data["Activated Module"] || "",
     "Serial Number": data["Serial Number"] || "",
-    "Kpi": "N/A",
+    "K-index": "N/A",
+    "G-Scale": "N/A", 
     "Alert": "N/A",
     "Wind Speed": "N/A",
     "Wind Gust": "N/A",
