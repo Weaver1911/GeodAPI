@@ -99,7 +99,7 @@ async function parseHtmlTables(page) {
     "Firmware Version": data["Firmware Version"] || "",
     "Hardware Version": data["Hardware Version"] || "",
     "Activated Module": data["Activated Module"] || "",
-    "Serial Number": data["Serial Number"] || ""
+    "Serial Number": data["Serial Number"] || "",
     "Kpi": "N/A",
     "Alert": "N/A",
     "Wind Speed": "N/A",
