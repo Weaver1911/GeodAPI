@@ -80,8 +80,9 @@ async function parseHtmlTables(page) {
     }
   }
 
-  // Rearrange the JSON data
-  const rearrangedData = {
+  //JSON data
+  const JData = {
+    Station: {
     "Network Latency": data["Network Latency"] || "",
     "Local Network Status": data["Local Network Status"] || "",
     "Local Network Address": data["Local Network Address"] || "",
@@ -89,6 +90,7 @@ async function parseHtmlTables(page) {
     "Miner": data["Miner"] || "",
     "Work Mode": data["Work Mode"] || "",
     "UTC Time": data["UTC Time"] || "",
+    "Local Time": "N/A",
     "UP Time": data["UP Time"] || "",
     "Boot Type": data["Boot Type"] || "",
     "Power": data["Power"] || "",
@@ -98,17 +100,22 @@ async function parseHtmlTables(page) {
     "Firmware Version": data["Firmware Version"] || "",
     "Hardware Version": data["Hardware Version"] || "",
     "Activated Module": data["Activated Module"] || "",
-    "Serial Number": data["Serial Number"] || "",
-    "K-index": "N/A",
-    "G-Scale": "N/A", 
-    "Alert": "N/A",
-    "Wind Speed": "N/A",
-    "Wind Gust": "N/A",
-    "Wind Direction": "N/A",
-    "Local Time": "N/A"
+    "Serial Number": data["Serial Number"] || ""
+  },
+    SWC: {
+      "K-index": "N/A",
+      "G-Scale": "N/A",
+      "Alert": "N/A",
+      "Oracle": "N/A"
+    },
+    Weather: {
+      "Wind Speed": "N/A",
+      "Wind Gust": "N/A",
+      "Wind Direction": "N/A"
+    }
   };
 
-  return rearrangedData;
+  return JData;
 }
 
 // Export the function
