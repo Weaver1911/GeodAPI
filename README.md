@@ -25,7 +25,7 @@ GeodAPI is a Node.js application that discovers your station on the network, ret
 
 ## Installation
 
-1\. Clone the repository:
+1\. Clone OR download the repository:
 
 ```bash
 
