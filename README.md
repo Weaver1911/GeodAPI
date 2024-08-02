@@ -1,4 +1,16 @@
-# GeodAPI
+[![CodeFactor](https://www.codefactor.io/repository/github/weaver1911/geodapi/badge)](https://www.codefactor.io/repository/github/weaver1911/geodapi)
+![GitHub last commit](https://img.shields.io/github/last-commit/weaver1911/GeodAPI)
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/weaver1911/GeodAPI)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/weaver1911/GeodAPI)
+![GitHub License](https://img.shields.io/github/license/weaver1911/GeodAPI)
+
+![GitHub forks](https://img.shields.io/github/forks/weaver1911/GeodAPI)
+![GitHub Repo stars](https://img.shields.io/github/stars/weaver1911/GeodAPI)
+![GitHub watchers](https://img.shields.io/github/watchers/weaver1911/GeodAPI)
+
+
+
+# GeodAPI ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 GeodAPI is a Node.js application that discovers your station on the network, retrieves data from the device, and serves the data through an API endpoint.
 
