@@ -104,7 +104,9 @@ async function parseHtmlTables(page) {
   },
     SWC: {
       "K-index": "N/A",
-      "G-Scale": "N/A",
+      "R-scale": "N/A",
+      "S-scale": "N/A",
+      "G-scale": "N/A",
       "Alert": "N/A",
       "Oracle": "N/A"
     },
